@@ -1,5 +1,5 @@
 {
-  "name": "@catdadcode/svelte-adapter-bun",
+  "name": "@calle.wester/svelte-adapter-bun",
   "version": "0.5.7",
   "description": "Adapter for SvelteKit apps that generates a standalone Bun.js server.",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catdadcode/svelte-adapter-bun.git"
+    "url": "git+https://github.com/calle/svelte-adapter-bun.git"
   },
   "keywords": [
     "svelte",
@@ -32,12 +32,12 @@
     "sveltekit-adapter",
     "bun"
   ],
-  "author": "Alex Ford <@catdadcode>",
+  "author": "Calle Wester <@calle>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/catdadcode/svelte-adapter-bun/issues"
+    "url": "https://github.com/calle/svelte-adapter-bun/issues"
   },
-  "homepage": "https://github.com/catdadcode/svelte-adapter-bun#readme",
+  "homepage": "https://github.com/calle/svelte-adapter-bun#readme",
   "devDependencies": {
     "@sveltejs/kit": "^1.27.3",
     "bun-types": "^1.0.9",
