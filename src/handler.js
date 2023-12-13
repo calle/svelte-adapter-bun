@@ -95,10 +95,10 @@ function serve(path, client = false) {
 /**@param {Request} req */
 function ssr(req) {
   let request = req;
-  let url = req.url;
-  let path = url.slice(url.split("/", 3).join("/").length);
-  let base = origin || get_origin(req.headers);
-  request = new Request(base + path, req);
+  // let url = req.url;
+  // let path = url.slice(url.split("/", 3).join("/").length);
+  // let base = origin || get_origin(req.headers);
+  // request = new Request(base + path, req);
 
   if (address_header && !request.headers.has(address_header)) {
     throw new Error(
